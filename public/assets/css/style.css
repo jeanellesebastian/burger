@@ -1,9 +1,26 @@
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  margin-top: 25px;
+  clear: both;
+}
+
+
 body {
- 	width: 75%;
+ 	/* width: 75%; */
   background-color: #fff;
   margin: auto;
  }
 
+.header {
+  text-align: center;
+}
+
+#burger {
+  display: block;
+  margin: auto;
+}
 
 li {
   padding: 5px;
