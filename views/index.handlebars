@@ -23,7 +23,7 @@
               <button type="submit">DEVOUR TIME!</button>
             </form>
 
-            {{> burgers/delete-burger}}
+            {{!-- {{> burgers/delete-burger}} --}}
           </li>
           {{/unless}} {{/each}}
         </ul>
@@ -44,7 +44,7 @@
               <button type="submit">DON'T EAT!</button>
             </form>
 
-            {{> burgers/delete-burger}}
+            {{!-- {{> burgers/delete-burger}} --}}
           </li>
           {{/if}} {{/each}}
         </ul>
@@ -62,11 +62,7 @@
             <input type="text" id="ca" name="name">
           </div>
 
-          <div class="form-group">
-            <label for="slee">devoured?</label><br>
-            <input type="radio" name="devoured" value="1" checked> devoured!<br>
-            <input type="radio" name="devoured" value="0"> Not Devoured
-          </div>
+
 
           <button type="submit">Add burger</button>
         </form>

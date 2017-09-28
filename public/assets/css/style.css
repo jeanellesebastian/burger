@@ -36,8 +36,11 @@ li {
   padding: 5px;
   margin: 5px;
   background: aqua;
+  width: 100%;
 }
 
 .form-group {
   margin-bottom: 5px;
 }
+
+
